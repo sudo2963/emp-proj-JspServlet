@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="emp">
+    <output-path>$PROJECT_DIR$/out/artifacts/emp</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="emp-proj-JspServlet" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="jstl" module-name="emp-proj-JspServlet" />
+          <element id="library" level="project" name="commons-dbutils-1.7" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="emp-proj-JspServlet/web/Web" />
+    </root>
+  </artifact>
+</component>
